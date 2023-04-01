@@ -1,4 +1,5 @@
-﻿using System;
+
+using System;
 
 void matriz()
 {
@@ -28,6 +29,7 @@ void matriz()
     Console.WriteLine("El promedio ="+promedio);
 
     int mayor = 0;
+    string nombredemayor="";
 
     for (int i = 0; i < notas.Length; i++)
     {
